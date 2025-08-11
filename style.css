@@ -143,6 +143,10 @@ body{
     color: var(--grey-500);
 }
 
+.person-name-education-kira-whittle{
+    color: var(--grey-500)
+}
+
 
 
 .card-short-description-patrick-abrams{
@@ -161,6 +165,10 @@ body{
     color: var(--grey-500) 
 }
 
+.card-short-description-kira-whittle{
+    color: var(--grey-500);
+}
+
 
 
 .card-long-description-patrick-abrams{
@@ -177,4 +185,8 @@ body{
 
 .card-long-description-jeanette-harmon{
     color: var(--grey-400)
+}
+
+.card-long-description-kira-whittle{
+    color: var(--grey-400);
 }
