@@ -65,6 +65,8 @@ body{
     z-index: 0;
     stroke: var(--purple-300);
     opacity: 80%;
+    width: 104px;
+    height: 102px;
 }
 
 .card-jonathan-walters{
