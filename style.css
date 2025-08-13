@@ -55,6 +55,16 @@ body{
     grid-row: 1;
     grid-column: 1 / span 2;
     background-color: var(--purple-500);
+    position: relative;
+}
+
+.daniel-clifford-apostrophe-image{
+    position: absolute;
+    left: calc(90% - 104px);
+    top: 0;
+    z-index: 0;
+    stroke: var(--purple-300);
+    opacity: 80%;
 }
 
 .card-jonathan-walters{
@@ -119,6 +129,9 @@ body{
         grid-row: 4;
         grid-column: 1 / 3;
     }
+    .daniel-clifford-apostrophe-image{
+        left: calc(75% - 104px);
+    }
 }
 
 
@@ -160,6 +173,12 @@ body{
         grid-row: 7/9;
         grid-column: 1;
     }
+
+    .daniel-clifford-apostrophe-image{
+        height: 0;
+        width: 0;
+    }
+
 }
 
 
@@ -244,6 +263,8 @@ body{
 
 .card-short-description-daniel-clifford{
     color: var(--white);
+    z-index: 10;
+    position: relative;
 }
 
 .card-short-description-jonathan-walters{
